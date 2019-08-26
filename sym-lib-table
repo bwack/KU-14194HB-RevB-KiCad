@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name KU-schematics-library)(type Legacy)(uri ${KIPRJMOD}/KU-schematics-library.lib)(options "")(descr ""))
+)
