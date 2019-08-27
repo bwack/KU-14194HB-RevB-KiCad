@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -97,7 +97,7 @@ U 1 1 5D981574
 P 2200 2700
 AR Path="/5D981574" Ref="FB?"  Part="1" 
 AR Path="/5D940AF4/5D981574" Ref="FB18"  Part="1" 
-F 0 "FB18" H 2175 2775 50  0000 C CNN
+F 0 "FB18" H 2200 2778 50  0000 C CNN
 F 1 "FERRITE_BEAD" H 2200 2650 50  0001 C CNN
 F 2 "KU-14194HB-RevB-KiCad:RECTIFIER" H 2250 2725 50  0001 C CNN
 F 3 "" H 2200 2700 50  0001 C CNN
@@ -125,7 +125,7 @@ AR Path="/5D981580" Ref="CN?"  Part="1"
 AR Path="/5D940AF4/5D981580" Ref="CN2"  Part="1" 
 F 0 "CN2" V 1550 9100 118 0000 C CIN
 F 1 "USER_PORT_CON" V 1750 9150 50  0001 C CNN
-F 2 "" H 1800 8950 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:EDGE_CON_24P" H 1800 8950 50  0001 C CNN
 F 3 "" H 1800 8950 50  0001 C CNN
 	1    1900 9100
 	1    0    0    -1  
@@ -731,66 +731,14 @@ F 3 "" H 5050 10650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2500 7500 2500 7600
-$Comp
-L KU-schematics-library:R_US_ARRAY RP?
-U 7 1 5D9816D4
-P 2500 7700
-AR Path="/5D9816D4" Ref="RP?"  Part="7" 
-AR Path="/5D940AF4/5D9816D4" Ref="RP3"  Part="7" 
-F 0 "RP3" H 2553 7746 50  0001 L CNN
-F 1 "R_US_ARRAY" H 2553 7700 50  0001 L CNN
-F 2 "Resistor_THT:R_Array_SIP8" H 2500 7710 50  0001 C CNN
-F 3 "" H 2500 7710 50  0001 C CNN
-	7    2500 7700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2400 7800 2400 8300
 Wire Wire Line
 	2400 7600 2400 7500
-$Comp
-L KU-schematics-library:R_US_ARRAY RP?
-U 6 1 5D9816DC
-P 2400 7700
-AR Path="/5D9816DC" Ref="RP?"  Part="6" 
-AR Path="/5D940AF4/5D9816DC" Ref="RP3"  Part="6" 
-F 0 "RP3" H 2453 7746 50  0001 L CNN
-F 1 "R_US_ARRAY" H 2453 7700 50  0001 L CNN
-F 2 "Resistor_THT:R_Array_SIP8" H 2400 7710 50  0001 C CNN
-F 3 "" H 2400 7710 50  0001 C CNN
-	6    2400 7700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2300 7600 2300 7500
-$Comp
-L KU-schematics-library:R_US_ARRAY RP?
-U 5 1 5D9816E3
-P 2300 7700
-AR Path="/5D9816E3" Ref="RP?"  Part="5" 
-AR Path="/5D940AF4/5D9816E3" Ref="RP3"  Part="5" 
-F 0 "RP3" H 2353 7746 50  0001 L CNN
-F 1 "R_US_ARRAY" H 2353 7700 50  0001 L CNN
-F 2 "Resistor_THT:R_Array_SIP8" H 2300 7710 50  0001 C CNN
-F 3 "" H 2300 7710 50  0001 C CNN
-	5    2300 7700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2200 7600 2200 7500
-$Comp
-L KU-schematics-library:R_US_ARRAY RP?
-U 4 1 5D9816EA
-P 2200 7700
-AR Path="/5D9816EA" Ref="RP?"  Part="4" 
-AR Path="/5D940AF4/5D9816EA" Ref="RP3"  Part="4" 
-F 0 "RP3" H 2253 7746 50  0001 L CNN
-F 1 "R_US_ARRAY" H 2253 7700 50  0001 L CNN
-F 2 "Resistor_THT:R_Array_SIP8" H 2200 7710 50  0001 C CNN
-F 3 "" H 2200 7710 50  0001 C CNN
-	4    2200 7700
-	1    0    0    -1  
-$EndComp
 Connection ~ 2200 7900
 Wire Wire Line
 	2200 7800 2200 7900
@@ -1178,7 +1126,7 @@ $Comp
 L KU-schematics-library:FERRITE_NARROW FB7
 U 1 1 5D62E02F
 P 3850 7050
-F 0 "FB7" H 3779 6968 50  0000 L CNN
+F 0 "FB7" H 3777 6988 50  0000 L CNN
 F 1 "FERRITE_NARROW" H 3800 6950 50  0001 C CNN
 F 2 "KU-14194HB-RevB-KiCad:RECTIFIER" H 3850 7050 50  0001 C CNN
 F 3 "" H 3850 7050 50  0001 C CNN
@@ -1189,7 +1137,7 @@ $Comp
 L KU-schematics-library:FERRITE_NARROW FB9
 U 1 1 5D62F499
 P 4050 7050
-F 0 "FB9" H 3979 6968 50  0000 L CNN
+F 0 "FB9" H 3973 6989 50  0000 L CNN
 F 1 "FERRITE_NARROW" H 4000 6950 50  0001 C CNN
 F 2 "KU-14194HB-RevB-KiCad:RECTIFIER" H 4050 7050 50  0001 C CNN
 F 3 "" H 4050 7050 50  0001 C CNN
@@ -1200,7 +1148,7 @@ $Comp
 L KU-schematics-library:FERRITE_NARROW FB8
 U 1 1 5D62FE49
 P 4250 7050
-F 0 "FB8" H 4179 6968 50  0000 L CNN
+F 0 "FB8" H 4173 6991 50  0000 L CNN
 F 1 "FERRITE_NARROW" H 4200 6950 50  0001 C CNN
 F 2 "KU-14194HB-RevB-KiCad:RECTIFIER" H 4250 7050 50  0001 C CNN
 F 3 "" H 4250 7050 50  0001 C CNN
@@ -1329,19 +1277,6 @@ Wire Wire Line
 Wire Wire Line
 	5350 7600 5850 7600
 Connection ~ 5350 7600
-$Comp
-L KU-schematics-library:R_US_ARRAY RP?
-U 1 1 5D9CBAC5
-P 5550 10200
-AR Path="/5D9CBAC5" Ref="RP?"  Part="4" 
-AR Path="/5D940AF4/5D9CBAC5" Ref="RP3"  Part="1" 
-F 0 "RP3" H 5603 10246 50  0001 L CNN
-F 1 "R_US_ARRAY" H 5603 10200 50  0001 L CNN
-F 2 "Resistor_THT:R_Array_SIP8" H 5550 10210 50  0001 C CNN
-F 3 "" H 5550 10210 50  0001 C CNN
-	1    5550 10200
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5550 10100 5550 9500
 Connection ~ 5550 9500
@@ -1509,19 +1444,6 @@ Wire Wire Line
 	5350 4600 5850 4600
 Text Notes 5400 4450 0    50   ~ 0
 RP3\n3.3K
-$Comp
-L KU-schematics-library:R_US_ARRAY RP?
-U 2 1 5D7EC6C2
-P 5350 4400
-AR Path="/5D7EC6C2" Ref="RP?"  Part="7" 
-AR Path="/5D940AF4/5D7EC6C2" Ref="RP3"  Part="2" 
-F 0 "RP3" H 5403 4446 50  0001 L CNN
-F 1 "R_US_ARRAY" H 5403 4400 50  0001 L CNN
-F 2 "Resistor_THT:R_Array_SIP8" H 5350 4410 50  0001 C CNN
-F 3 "" H 5350 4410 50  0001 C CNN
-	2    5350 4400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5350 4500 5350 4600
 $Comp
@@ -1632,19 +1554,6 @@ Text Label 4750 5000 0    50   ~ 0
 CASS_RD
 Text Notes 3300 850  0    50   ~ 0
 RP3\n3.3K
-$Comp
-L KU-schematics-library:R_US_ARRAY RP?
-U 3 1 5D94FAE1
-P 3400 900
-AR Path="/5D94FAE1" Ref="RP?"  Part="7" 
-AR Path="/5D940AF4/5D94FAE1" Ref="RP3"  Part="3" 
-F 0 "RP3" H 3453 946 50  0001 L CNN
-F 1 "R_US_ARRAY" H 3453 900 50  0001 L CNN
-F 2 "Resistor_THT:R_Array_SIP8" H 3400 910 50  0001 C CNN
-F 3 "" H 3400 910 50  0001 C CNN
-	3    3400 900 
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5D94FAE8
@@ -1934,26 +1843,26 @@ Wire Wire Line
 Wire Wire Line
 	3650 7200 4250 7200
 Wire Wire Line
-	7250 9800 7250 9050
+	7550 9800 7550 9050
 Wire Wire Line
-	7250 9050 6850 9050
+	7550 9050 6850 9050
 Wire Wire Line
-	1900 9800 7250 9800
+	1900 9800 7550 9800
 Wire Wire Line
-	7250 9050 7250 6500
+	7550 9050 7550 6600
 Wire Wire Line
-	7250 6500 6850 6500
-Connection ~ 7250 9050
+	7550 6600 6850 6600
+Connection ~ 7550 9050
 Wire Wire Line
-	7250 6500 7250 5650
+	7550 6600 7550 5650
 Wire Wire Line
-	7250 1750 6850 1750
-Connection ~ 7250 6500
+	7550 1750 6850 1750
+Connection ~ 7550 6600
 Wire Wire Line
-	7250 1750 7250 650 
+	7550 1750 7550 650 
 Wire Wire Line
-	2250 650  7250 650 
-Connection ~ 7250 1750
+	2250 650  7550 650 
+Connection ~ 7550 1750
 Wire Wire Line
 	6350 10700 6900 10700
 Connection ~ 6350 9700
@@ -2142,14 +2051,613 @@ Wire Wire Line
 Wire Wire Line
 	12450 7000 12450 5650
 Wire Wire Line
-	12450 5650 7250 5650
+	12450 5650 7550 5650
 Connection ~ 12200 7000
-Connection ~ 7250 5650
+Connection ~ 7550 5650
 Wire Wire Line
-	7250 5650 7250 1750
+	7550 5650 7550 1750
 Wire Wire Line
 	12450 5650 12650 5650
 Connection ~ 12450 5650
 Text GLabel 12650 5650 2    50   Output ~ 0
 ~RESET~
+Text GLabel 7950 9600 2    50   Input ~ 0
+~CIA1~
+Text GLabel 7950 9450 2    50   Input ~ 0
+~CIA2~
+Wire Wire Line
+	7250 6800 6850 6800
+Text Label 6850 6800 0    50   ~ 0
+~CIA1~
+Text Label 6900 9450 0    50   ~ 0
+~CIA2~
+Text GLabel 7950 9300 2    50   Output ~ 0
+~VA15~
+Text GLabel 7950 9150 2    50   Output ~ 0
+~VA14~
+Text GLabel 7950 8900 2    50   Output ~ 0
+A0-A15
+Text GLabel 7950 8400 2    50   Output ~ 0
+DO-D7
+Wire Wire Line
+	6850 7600 6950 7600
+Wire Wire Line
+	6850 7700 6950 7700
+Wire Wire Line
+	6850 7800 6950 7800
+Wire Wire Line
+	6850 7900 6950 7900
+Wire Wire Line
+	6850 8000 6950 8000
+Wire Wire Line
+	6850 8100 6950 8100
+Wire Wire Line
+	6850 8200 6950 8200
+Wire Wire Line
+	6850 8300 6950 8300
+Text Label 6850 7600 0    50   ~ 0
+D7
+Text Label 6850 7700 0    50   ~ 0
+D6
+Text Label 6850 7800 0    50   ~ 0
+D5
+Text Label 6850 7900 0    50   ~ 0
+D4
+Text Label 6850 8000 0    50   ~ 0
+D3
+Text Label 6850 8100 0    50   ~ 0
+D2
+Text Label 6850 8200 0    50   ~ 0
+D1
+Text Label 6850 8300 0    50   ~ 0
+D0
+Entry Wire Line
+	6950 7600 7050 7700
+Entry Wire Line
+	6950 7700 7050 7800
+Entry Wire Line
+	6950 7800 7050 7900
+Entry Wire Line
+	6950 7900 7050 8000
+Entry Wire Line
+	6950 8000 7050 8100
+Entry Wire Line
+	6950 8100 7050 8200
+Entry Wire Line
+	6950 8200 7050 8300
+Entry Wire Line
+	6950 8300 7050 8400
+Wire Bus Line
+	7950 8400 7050 8400
+Wire Bus Line
+	7950 8900 7150 8900
+Entry Wire Line
+	7050 1850 7150 1950
+Entry Wire Line
+	7050 1950 7150 2050
+Entry Wire Line
+	7050 2050 7150 2150
+Entry Wire Line
+	7050 2150 7150 2250
+Entry Wire Line
+	7050 2250 7150 2350
+Entry Wire Line
+	7050 2350 7150 2450
+Entry Wire Line
+	7050 2450 7150 2550
+Entry Wire Line
+	7050 2550 7150 2650
+Entry Wire Line
+	7050 2650 7150 2750
+Entry Wire Line
+	7050 2750 7150 2850
+Entry Wire Line
+	7050 2850 7150 2950
+Entry Wire Line
+	7050 2950 7150 3050
+Entry Wire Line
+	7050 3050 7150 3150
+Entry Wire Line
+	7050 3150 7150 3250
+Entry Wire Line
+	7050 3250 7150 3350
+Entry Wire Line
+	7050 3350 7150 3450
+Wire Wire Line
+	6850 1850 7050 1850
+Wire Wire Line
+	6850 1950 7050 1950
+Wire Wire Line
+	6850 2050 7050 2050
+Wire Wire Line
+	6850 2150 7050 2150
+Wire Wire Line
+	6850 2250 7050 2250
+Wire Wire Line
+	6850 2350 7050 2350
+Wire Wire Line
+	6850 2450 7050 2450
+Wire Wire Line
+	6850 2550 7050 2550
+Wire Wire Line
+	6850 2650 7050 2650
+Wire Wire Line
+	6850 2750 7050 2750
+Wire Wire Line
+	6850 2850 7050 2850
+Wire Wire Line
+	6850 2950 7050 2950
+Wire Wire Line
+	6850 3050 7050 3050
+Wire Wire Line
+	6850 3150 7050 3150
+Wire Wire Line
+	6850 3250 7050 3250
+Wire Wire Line
+	6850 3350 7050 3350
+Text Label 6900 3350 0    50   ~ 0
+A0
+Text Label 6900 3250 0    50   ~ 0
+A1
+Text Label 6900 3150 0    50   ~ 0
+A2
+Text Label 6900 3050 0    50   ~ 0
+A3
+Text Label 6900 2950 0    50   ~ 0
+A4
+Text Label 6900 2850 0    50   ~ 0
+A5
+Text Label 6900 2750 0    50   ~ 0
+A6
+Text Label 6900 2650 0    50   ~ 0
+A7
+Text Label 6900 2550 0    50   ~ 0
+A8
+Text Label 6900 2450 0    50   ~ 0
+A9
+Text Label 6900 2350 0    50   ~ 0
+A10
+Text Label 6900 2250 0    50   ~ 0
+A11
+Text Label 6900 2150 0    50   ~ 0
+A12
+Text Label 6900 2050 0    50   ~ 0
+A13
+Text Label 6900 1950 0    50   ~ 0
+A14
+Text Label 6900 1850 0    50   ~ 0
+A15
+Wire Wire Line
+	6850 9150 7350 9150
+Wire Wire Line
+	7350 9150 7350 6700
+Wire Wire Line
+	7350 6700 6850 6700
+Wire Wire Line
+	7350 6700 7350 4350
+Wire Wire Line
+	7350 4350 6850 4350
+Connection ~ 7350 6700
+Entry Wire Line
+	7050 8500 7150 8600
+Entry Wire Line
+	7050 8600 7150 8700
+Entry Wire Line
+	7050 8700 7150 8800
+Entry Wire Line
+	7050 8800 7150 8900
+Wire Wire Line
+	6850 8500 7050 8500
+Wire Wire Line
+	6850 8600 7050 8600
+Wire Wire Line
+	6850 8700 7050 8700
+Wire Wire Line
+	6850 8800 7050 8800
+Text Label 6900 8800 0    50   ~ 0
+A0
+Text Label 6900 8700 0    50   ~ 0
+A1
+Text Label 6900 8600 0    50   ~ 0
+A2
+Text Label 6900 8500 0    50   ~ 0
+A3
+Entry Wire Line
+	7050 5900 7150 6000
+Entry Wire Line
+	7050 6000 7150 6100
+Entry Wire Line
+	7050 6100 7150 6200
+Entry Wire Line
+	7050 6200 7150 6300
+Wire Wire Line
+	6850 5900 7050 5900
+Wire Wire Line
+	6850 6000 7050 6000
+Wire Wire Line
+	6850 6100 7050 6100
+Wire Wire Line
+	6850 6200 7050 6200
+Text Label 6900 6200 0    50   ~ 0
+A0
+Text Label 6900 6100 0    50   ~ 0
+A1
+Text Label 6900 6000 0    50   ~ 0
+A2
+Text Label 6900 5900 0    50   ~ 0
+A3
+Wire Wire Line
+	6850 5000 6950 5000
+Wire Wire Line
+	6850 5100 6950 5100
+Wire Wire Line
+	6850 5200 6950 5200
+Wire Wire Line
+	6850 5300 6950 5300
+Wire Wire Line
+	6850 5400 6950 5400
+Wire Wire Line
+	6850 5500 6950 5500
+Wire Wire Line
+	6850 5600 6950 5600
+Wire Wire Line
+	6850 5700 6950 5700
+Text Label 6850 5000 0    50   ~ 0
+D7
+Text Label 6850 5100 0    50   ~ 0
+D6
+Text Label 6850 5200 0    50   ~ 0
+D5
+Text Label 6850 5300 0    50   ~ 0
+D4
+Text Label 6850 5400 0    50   ~ 0
+D3
+Text Label 6850 5500 0    50   ~ 0
+D2
+Text Label 6850 5600 0    50   ~ 0
+D1
+Text Label 6850 5700 0    50   ~ 0
+D0
+Entry Wire Line
+	6950 5000 7050 5100
+Entry Wire Line
+	6950 5100 7050 5200
+Entry Wire Line
+	6950 5200 7050 5300
+Entry Wire Line
+	6950 5300 7050 5400
+Entry Wire Line
+	6950 5400 7050 5500
+Entry Wire Line
+	6950 5500 7050 5600
+Entry Wire Line
+	6950 5600 7050 5700
+Entry Wire Line
+	6950 5700 7050 5800
+Wire Wire Line
+	6850 3450 6950 3450
+Wire Wire Line
+	6850 3550 6950 3550
+Wire Wire Line
+	6850 3650 6950 3650
+Wire Wire Line
+	6850 3750 6950 3750
+Wire Wire Line
+	6850 3850 6950 3850
+Wire Wire Line
+	6850 3950 6950 3950
+Wire Wire Line
+	6850 4050 6950 4050
+Wire Wire Line
+	6850 4150 6950 4150
+Text Label 6850 3450 0    50   ~ 0
+D7
+Text Label 6850 3550 0    50   ~ 0
+D6
+Text Label 6850 3650 0    50   ~ 0
+D5
+Text Label 6850 3750 0    50   ~ 0
+D4
+Text Label 6850 3850 0    50   ~ 0
+D3
+Text Label 6850 3950 0    50   ~ 0
+D2
+Text Label 6850 4050 0    50   ~ 0
+D1
+Text Label 6850 4150 0    50   ~ 0
+D0
+Entry Wire Line
+	6950 3450 7050 3550
+Entry Wire Line
+	6950 3550 7050 3650
+Entry Wire Line
+	6950 3650 7050 3750
+Entry Wire Line
+	6950 3750 7050 3850
+Entry Wire Line
+	6950 3850 7050 3950
+Entry Wire Line
+	6950 3950 7050 4050
+Entry Wire Line
+	6950 4050 7050 4150
+Entry Wire Line
+	6950 4150 7050 4250
+Text Label 6900 9150 0    50   ~ 0
+R\~W~
+Text Label 6850 6700 0    50   ~ 0
+R\~W~
+Wire Wire Line
+	7950 9150 7650 9150
+Wire Wire Line
+	7650 9150 7650 9250
+Wire Wire Line
+	7650 9250 6850 9250
+Wire Wire Line
+	7950 9450 6850 9450
+Wire Wire Line
+	7950 9600 7250 9600
+Wire Wire Line
+	7250 6800 7250 9600
+Wire Wire Line
+	7950 9300 7700 9300
+Wire Wire Line
+	7700 9300 7700 9350
+Wire Wire Line
+	7700 9350 6850 9350
+Wire Wire Line
+	6850 8950 7450 8950
+Wire Wire Line
+	7450 8950 7450 6500
+Wire Wire Line
+	7450 6500 6850 6500
+Wire Wire Line
+	7450 6500 7450 4250
+Connection ~ 7450 6500
+Wire Wire Line
+	7450 4250 7950 4250
+$Comp
+L KU-schematics-library:FERRITE_NARROW FB5
+U 1 1 5E11A8A0
+P 7300 4250
+F 0 "FB5" H 7229 4168 50  0000 L CNN
+F 1 "FERRITE_NARROW" H 7250 4150 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RECTIFIER" H 7300 4250 50  0001 C CNN
+F 3 "" H 7300 4250 50  0001 C CNN
+	1    7300 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 4250 6950 4250
+Wire Wire Line
+	6950 4250 6950 4300
+Wire Wire Line
+	6950 4300 7100 4300
+Wire Wire Line
+	7100 4300 7100 4250
+Wire Wire Line
+	7100 4250 7200 4250
+Wire Wire Line
+	7450 4250 7400 4250
+Connection ~ 7450 4250
+Text GLabel 7950 4250 2    50   Output ~ 0
+PHI2
+Text Label 6850 4250 0    20   ~ 0
+PH2_FB
+Text Label 6850 6500 0    50   ~ 0
+PHI2
+Text Label 6900 8950 0    50   ~ 0
+PHI2
+Text GLabel 7950 4650 2    50   Input ~ 0
+RDY
+Wire Wire Line
+	7950 4650 6850 4650
+Text GLabel 7950 6700 2    50   Output ~ 0
+R\~W~
+Wire Wire Line
+	7950 6700 7350 6700
+Text GLabel 7950 6400 2    50   Input ~ 0
+~IRQ~
+Wire Wire Line
+	7950 6400 7250 6400
+Wire Wire Line
+	7250 6400 7250 4550
+Wire Wire Line
+	7250 4550 6850 4550
+Connection ~ 7250 6400
+Wire Wire Line
+	7250 6400 6850 6400
+Text Label 6850 4550 0    50   ~ 0
+~IRQ~
+Text Label 6900 6300 0    50   ~ 0
+~IRQ~
+Text Notes 8050 7500 0    50   ~ 0
+RP4\n3.3K
+$Comp
+L power:+5V #PWR?
+U 1 1 5E657E8D
+P 8400 7000
+AR Path="/5E657E8D" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5E657E8D" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 8400 6850 50  0001 C CNN
+F 1 "+5V" V 8333 6992 50  0000 L CNN
+F 2 "" H 8400 7000 50  0001 C CNN
+F 3 "" H 8400 7000 50  0001 C CNN
+	1    8400 7000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 7000 8350 7000
+Wire Wire Line
+	8250 7100 8350 7100
+Wire Wire Line
+	8350 7100 8350 7000
+Connection ~ 8350 7000
+Wire Wire Line
+	8350 7000 8400 7000
+Wire Wire Line
+	8350 7200 8350 7100
+Connection ~ 8350 7100
+Wire Wire Line
+	8250 7300 8350 7300
+Wire Wire Line
+	8350 7300 8350 7200
+Connection ~ 8350 7200
+Wire Wire Line
+	8050 7000 7850 7000
+Wire Wire Line
+	8050 7100 7850 7100
+Wire Wire Line
+	8050 7200 7850 7200
+Wire Wire Line
+	8050 7300 7850 7300
+Text Label 7850 7000 0    50   ~ 0
+A15
+Text Label 7850 7100 0    50   ~ 0
+A14
+Text Label 7850 7200 0    50   ~ 0
+A13
+Text Label 7850 7300 0    50   ~ 0
+A12
+Entry Wire Line
+	7750 7100 7850 7000
+Entry Wire Line
+	7750 7300 7850 7200
+Entry Wire Line
+	7750 7200 7850 7100
+Entry Wire Line
+	7750 7400 7850 7300
+Wire Bus Line
+	7750 7400 7150 7400
+Connection ~ 7150 7400
+$Comp
+L KU-schematics-library:R_ARRAY_9WAY_US RP4
+U 3 1 5EAE3C90
+P 8150 7000
+F 0 "RP4" V 8028 7000 50  0001 C CNN
+F 1 "R_ARRAY_9WAY_US" H 8525 7125 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_9WAY" H 8150 7000 50  0001 C CNN
+F 3 "" H 8150 7000 50  0001 C CNN
+	3    8150 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L KU-schematics-library:R_ARRAY_9WAY_US RP4
+U 4 1 5EAE4B71
+P 8150 7100
+F 0 "RP4" V 8028 7100 50  0001 C CNN
+F 1 "R_ARRAY_9WAY_US" H 8525 7225 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_9WAY" H 8150 7100 50  0001 C CNN
+F 3 "" H 8150 7100 50  0001 C CNN
+	4    8150 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L KU-schematics-library:R_ARRAY_9WAY_US RP4
+U 5 1 5EAE552E
+P 8150 7200
+F 0 "RP4" V 8028 7200 50  0001 C CNN
+F 1 "R_ARRAY_9WAY_US" H 8525 7325 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_9WAY" H 8150 7200 50  0001 C CNN
+F 3 "" H 8150 7200 50  0001 C CNN
+	5    8150 7200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 7200 8350 7200
+$Comp
+L KU-schematics-library:R_ARRAY_9WAY_US RP4
+U 7 1 5EAE6B76
+P 8150 7300
+F 0 "RP4" V 8028 7300 50  0001 C CNN
+F 1 "R_ARRAY_9WAY_US" H 8525 7425 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_9WAY" H 8150 7300 50  0001 C CNN
+F 3 "" H 8150 7300 50  0001 C CNN
+	7    8150 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L KU-schematics-library:R_ARRAY_7WAY_US RP3
+U 3 1 5EB45D77
+P 3400 900
+F 0 "RP3" V 3499 900 50  0001 C CNN
+F 1 "R_ARRAY_7WAY_US" H 3750 950 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_7WAY" H 3400 910 50  0001 C CNN
+F 3 "" H 3400 910 50  0001 C CNN
+	3    3400 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KU-schematics-library:R_ARRAY_7WAY_US RP3
+U 2 1 5EB4C7B1
+P 5350 4400
+F 0 "RP3" H 5403 4400 50  0001 L CNN
+F 1 "R_ARRAY_7WAY_US" H 5700 4450 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_7WAY" H 5350 4410 50  0001 C CNN
+F 3 "" H 5350 4410 50  0001 C CNN
+	2    5350 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:R_ARRAY_7WAY_US RP3
+U 1 1 5EB4FB2A
+P 5550 10200
+F 0 "RP3" H 5475 10200 50  0001 R CNN
+F 1 "R_ARRAY_7WAY_US" H 5900 10250 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_7WAY" H 5550 10210 50  0001 C CNN
+F 3 "" H 5550 10210 50  0001 C CNN
+	1    5550 10200
+	-1   0    0    1   
+$EndComp
+$Comp
+L KU-schematics-library:R_ARRAY_7WAY_US RP3
+U 4 1 5EB53CAC
+P 2200 7700
+F 0 "RP3" H 2253 7700 50  0001 L CNN
+F 1 "R_ARRAY_7WAY_US" H 2550 7750 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_7WAY" H 2200 7710 50  0001 C CNN
+F 3 "" H 2200 7710 50  0001 C CNN
+	4    2200 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:R_ARRAY_7WAY_US RP3
+U 5 1 5EB54880
+P 2300 7700
+F 0 "RP3" H 2352 7700 50  0001 L CNN
+F 1 "R_ARRAY_7WAY_US" H 2650 7750 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_7WAY" H 2300 7710 50  0001 C CNN
+F 3 "" H 2300 7710 50  0001 C CNN
+	5    2300 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:R_ARRAY_7WAY_US RP3
+U 6 1 5EB5508B
+P 2400 7700
+F 0 "RP3" H 2452 7700 50  0001 L CNN
+F 1 "R_ARRAY_7WAY_US" H 2750 7750 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_7WAY" H 2400 7710 50  0001 C CNN
+F 3 "" H 2400 7710 50  0001 C CNN
+	6    2400 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:R_ARRAY_7WAY_US RP3
+U 7 1 5EB55888
+P 2500 7700
+F 0 "RP3" H 2553 7700 50  0001 L CNN
+F 1 "R_ARRAY_7WAY_US" H 2850 7750 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_7WAY" H 2500 7710 50  0001 C CNN
+F 3 "" H 2500 7710 50  0001 C CNN
+	7    2500 7700
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	7750 7100 7750 7400
+Wire Bus Line
+	7150 7400 7150 8900
+Wire Bus Line
+	7150 1950 7150 7400
+Wire Bus Line
+	7050 3550 7050 8400
 $EndSCHEMATC

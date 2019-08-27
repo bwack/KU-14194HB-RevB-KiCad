@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -28,5 +28,11 @@ F7 "~CIA2~" I R 4050 2150 50
 F8 "~CIA1~" I R 4050 2250 50 
 F9 "R\\~W~" O R 4050 2350 50 
 F10 "~IRQ~" I R 4050 2450 50 
+$EndSheet
+$Sheet
+S 5150 1500 1500 1200
+U 5D659BBE
+F0 "Sheet5D659BBD" 50
+F1 "file5D659BBD.sch" 50
 $EndSheet
 $EndSCHEMATC
