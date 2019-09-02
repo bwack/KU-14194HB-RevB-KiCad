@@ -1,0 +1,11 @@
+(module Q_NPN_ECB (layer F.Cu) (tedit 5D66D5D3)
+  (fp_text reference REF** (at 2.54 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Q_NPN_ECB (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole rect (at 0 -2.54) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at 0 2.54) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+)
