@@ -1,4 +1,4 @@
-(module DIP16 (layer F.Cu) (tedit 5D751E0C)
+(module DIP16 (layer F.Cu) (tedit 5D7D3E67)
   (fp_text reference REF** (at 0 0.5 90) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -10,7 +10,7 @@
   (pad 14 thru_hole circle (at 3.81 -3.81) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask))
   (pad 7 thru_hole circle (at -3.81 6.35) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask))
   (pad 10 thru_hole circle (at 3.81 6.35) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask))
-  (pad 1 thru_hole circle (at -3.81 -8.89) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask))
+  (pad 1 thru_hole rect (at -3.81 -8.89) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask))
   (pad 12 thru_hole circle (at 3.81 1.27) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask))
   (pad 9 thru_hole circle (at 3.81 8.89) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at -3.81 1.27) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask))

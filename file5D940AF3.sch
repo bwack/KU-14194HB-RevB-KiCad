@@ -2067,9 +2067,7 @@ Text GLabel 7750 9300 2    50   Output ~ 0
 Text GLabel 7750 9150 2    50   Output ~ 0
 ~VA14~
 Text GLabel 7750 8900 2    50   Output ~ 0
-A0-A15
-Text GLabel 7750 8400 2    50   Output ~ 0
-DO-D7
+A[0..15]
 Wire Wire Line
 	6850 7600 6950 7600
 Wire Wire Line
@@ -2120,8 +2118,6 @@ Entry Wire Line
 	6950 8300 7050 8400
 Wire Bus Line
 	7750 8400 7050 8400
-Wire Bus Line
-	7750 8900 7150 8900
 Entry Wire Line
 	7050 1850 7150 1950
 Entry Wire Line
@@ -2229,22 +2225,6 @@ Wire Wire Line
 Wire Wire Line
 	7350 4350 6850 4350
 Connection ~ 7350 6700
-Entry Wire Line
-	7050 8500 7150 8600
-Entry Wire Line
-	7050 8600 7150 8700
-Entry Wire Line
-	7050 8700 7150 8800
-Entry Wire Line
-	7050 8800 7150 8900
-Wire Wire Line
-	6850 8500 7050 8500
-Wire Wire Line
-	6850 8600 7050 8600
-Wire Wire Line
-	6850 8700 7050 8700
-Wire Wire Line
-	6850 8800 7050 8800
 Text Label 6900 8800 0    50   ~ 0
 A0
 Text Label 6900 8700 0    50   ~ 0
@@ -2254,21 +2234,21 @@ A2
 Text Label 6900 8500 0    50   ~ 0
 A3
 Entry Wire Line
-	7050 5900 7150 6000
+	7100 5900 7200 6000
 Entry Wire Line
-	7050 6000 7150 6100
+	7100 6000 7200 6100
 Entry Wire Line
-	7050 6100 7150 6200
+	7100 6100 7200 6200
 Entry Wire Line
-	7050 6200 7150 6300
+	7100 6200 7200 6300
 Wire Wire Line
-	6850 5900 7050 5900
+	6850 5900 7100 5900
 Wire Wire Line
-	6850 6000 7050 6000
+	6850 6000 7100 6000
 Wire Wire Line
-	6850 6100 7050 6100
+	6850 6100 7100 6100
 Wire Wire Line
-	6850 6200 7050 6200
+	6850 6200 7100 6200
 Text Label 6900 6200 0    50   ~ 0
 A0
 Text Label 6900 6100 0    50   ~ 0
@@ -2424,9 +2404,9 @@ Wire Wire Line
 Wire Wire Line
 	6950 4300 7100 4300
 Wire Wire Line
-	7100 4300 7100 4250
+	7100 4300 7050 4250
 Wire Wire Line
-	7100 4250 7200 4250
+	7050 4250 7200 4250
 Wire Wire Line
 	7450 4250 7400 4250
 Connection ~ 7450 4250
@@ -2517,9 +2497,6 @@ Entry Wire Line
 	7750 7200 7850 7100
 Entry Wire Line
 	7750 7400 7850 7300
-Wire Bus Line
-	7750 7400 7150 7400
-Connection ~ 7150 7400
 $Comp
 L KU-schematics-library:R_ARRAY_9WAY_US RP4
 U 3 1 5EAE3C90
@@ -4682,7 +4659,7 @@ U 1 1 5D8B7CFB
 P 9350 2950
 F 0 "L2" V 9485 2998 50  0000 C CNN
 F 1 "2.2uH" V 9414 2956 50  0000 C CNN
-F 2 "" H 9350 2950 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 9350 2950 50  0001 C CNN
 F 3 "~" H 9350 2950 50  0001 C CNN
 	1    9350 2950
 	0    -1   -1   0   
@@ -5100,14 +5077,6 @@ F 3 "~" H 11200 4100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11050 4000 11200 4000
-Wire Bus Line
-	7750 7100 7750 7400
-Wire Bus Line
-	7150 7400 7150 8900
-Wire Bus Line
-	7150 1950 7150 7400
-Wire Bus Line
-	7050 3550 7050 8400
 Connection ~ 11200 4000
 Wire Wire Line
 	11200 4000 11300 4000
@@ -5116,12 +5085,62 @@ L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power #U?
 U 1 1 605F81BA
 P 11200 4200
 AR Path="/605F81BA" Ref="#U?"  Part="1" 
-AR Path="/5D940AF4/605F81BA" Ref="#U?"  Part="1" 
-F 0 "#U?" H 11200 4200 50  0001 C CNN
+AR Path="/5D940AF4/605F81BA" Ref="#U0151"  Part="1" 
+F 0 "#U0151" H 11200 4200 50  0001 C CNN
 F 1 "GND_SMALL" H 11200 4200 50  0001 C CNN
 F 2 "" H 11200 4200 50  0001 C CNN
 F 3 "" H 11200 4200 50  0001 C CNN
 	1    11200 4200
 	1    0    0    -1  
 $EndComp
+Text Notes 9600 4950 0    39   ~ 0
+( 14.31818 MHz - NTSC )\n( 17.734472 MHz - PAL )
+Wire Wire Line
+	5350 10500 5350 10950
+Wire Wire Line
+	5350 10950 5550 10950
+Connection ~ 5350 10500
+Text GLabel 5550 10950 2    50   Input ~ 0
+~NMI~
+Text Notes 5350 11100 0    39   ~ 0
+To Cartridge Expansion
+Wire Wire Line
+	6850 8800 7050 8800
+Wire Wire Line
+	6850 8700 7050 8700
+Wire Wire Line
+	6850 8600 7050 8600
+Wire Wire Line
+	6850 8500 7050 8500
+Wire Bus Line
+	7750 8900 7150 8900
+Wire Bus Line
+	7750 7400 7150 7400
+Entry Wire Line
+	7050 8800 7150 8900
+Entry Wire Line
+	7050 8700 7150 8800
+Entry Wire Line
+	7050 8600 7150 8700
+Entry Wire Line
+	7050 8500 7150 8600
+Wire Bus Line
+	7150 5900 7200 5900
+Wire Bus Line
+	7200 6350 7150 6350
+Wire Bus Line
+	7150 6350 7150 7400
+Connection ~ 7150 7400
+Text GLabel 7750 8400 2    39   BiDi ~ 0
+D[0..7]
+Wire Bus Line
+	7750 7100 7750 7400
+Wire Bus Line
+	7150 7400 7150 8900
+Wire Bus Line
+	7200 5900 7200 6350
+Wire Bus Line
+	7150 1950 7150 5900
+Wire Bus Line
+	7050 3550 7050 8400
 $EndSCHEMATC

@@ -34,5 +34,10 @@ S 5150 1500 1500 1200
 U 5D659BBE
 F0 "Sheet5D659BBD" 50
 F1 "file5D659BBD.sch" 50
+F2 "D[0..7]" B L 5150 1700 39 
 $EndSheet
+Wire Bus Line
+	5150 1700 4050 1700
+Text HLabel 4500 1700 1    39   Input ~ 0
+D[0..7]
 $EndSCHEMATC
