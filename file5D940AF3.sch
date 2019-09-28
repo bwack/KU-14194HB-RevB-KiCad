@@ -4321,7 +4321,7 @@ F 3 "" H 10500 3950 50  0001 C CNN
 	2    10500 3950
 	1    0    0    -1  
 $EndComp
-Text GLabel 10150 4750 0    39   Output ~ 0
+Text GLabel 10150 4750 0    50   Output ~ 0
 PHI_COLOR
 Wire Wire Line
 	10150 4750 10700 4750
@@ -4720,8 +4720,8 @@ Wire Wire Line
 	13500 5100 13500 5500
 Wire Wire Line
 	13500 5500 10300 5500
-Text GLabel 10150 5500 0    39   Output ~ 0
-PHI_0
+Text GLabel 10150 5500 0    50   Output ~ 0
+PHI0
 Wire Wire Line
 	10300 5500 10300 5300
 Wire Wire Line
@@ -5230,6 +5230,8 @@ F 3 "" H 9600 2950 50  0001 C CNN
 	1    9600 2950
 	1    0    0    -1  
 $EndComp
+Text Label 8500 6400 0    50   ~ 0
+CAN+5V
 Wire Bus Line
 	7750 7100 7750 7400
 Wire Bus Line
