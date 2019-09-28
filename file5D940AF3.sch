@@ -5,11 +5,11 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 3
-Title ""
-Date ""
+Title "C64 Motherboard KU-14194HB"
+Date "2019-09-28"
 Rev ""
-Comp ""
-Comment1 ""
+Comp "Commodore 1982"
+Comment1 "Retraced and schematics by bwack 2019"
 Comment2 ""
 Comment3 ""
 Comment4 ""

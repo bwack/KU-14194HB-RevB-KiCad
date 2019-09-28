@@ -5,11 +5,11 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 3
-Title ""
-Date "2019-09-08"
+Title "C64 Motherboard KU-14194HB"
+Date "2019-09-28"
 Rev ""
-Comp ""
-Comment1 ""
+Comp "Commodore 1982"
+Comment1 "Retraced and schematics by bwack 2019"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -4848,6 +4848,17 @@ Wire Wire Line
 Connection ~ 12800 3050
 Wire Wire Line
 	12800 3050 13300 3050
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power #U0235
+U 1 1 5E457AA4
+P 12800 3300
+F 0 "#U0235" H 12800 3300 50  0001 C CNN
+F 1 "GND_SMALL-power" H 12800 3300 50  0001 C CNN
+F 2 "" H 12800 3300 50  0001 C CNN
+F 3 "" H 12800 3300 50  0001 C CNN
+	1    12800 3300
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	8400 8950 8400 9150
 Wire Bus Line
@@ -4894,15 +4905,4 @@ Wire Bus Line
 	1700 1850 1700 5150
 Wire Bus Line
 	2800 4350 9300 4350
-$Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power #U0235
-U 1 1 5E457AA4
-P 12800 3300
-F 0 "#U0235" H 12800 3300 50  0001 C CNN
-F 1 "GND_SMALL-power" H 12800 3300 50  0001 C CNN
-F 2 "" H 12800 3300 50  0001 C CNN
-F 3 "" H 12800 3300 50  0001 C CNN
-	1    12800 3300
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

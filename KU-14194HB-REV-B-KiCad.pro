@@ -1,4 +1,4 @@
-update=sø. 08. sep. 2019 kl. 18.32 +0200
+update=lø. 28. sep. 2019 kl. 22.14 +0200
 version=1
 last_client=eeschema
 [general]
@@ -241,7 +241,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=../../Desktop
+PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
