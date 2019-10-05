@@ -6,8 +6,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 3
 Title "C64 Motherboard KU-14194HB"
-Date "2019-09-29"
-Rev ""
+Date "2019-10-05"
+Rev "1.0"
 Comp "Commodore 1982"
 Comment1 "Retraced and schematics by bwack 2019"
 Comment2 ""
@@ -395,7 +395,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 6900 2800 6900
 Text Label 1900 4700 0    50   Italic 0
-BTNA\LP
+BTNA\~LP~
 Text Label 1900 4600 0    50   Italic 0
 JOYA3
 Text Label 1900 4500 0    50   Italic 0
@@ -1095,7 +1095,7 @@ Connection ~ 3650 5100
 Wire Wire Line
 	3650 5100 5850 5100
 Text GLabel 4750 4700 2    50   Output ~ 0
-BTNA\LP
+BTNA\~LP~
 Wire Wire Line
 	5850 6800 2900 6800
 Wire Wire Line
@@ -4155,7 +4155,7 @@ U 1 1 5ED22A17
 P 10250 3300
 F 0 "Y1" H 10050 3350 50  0000 L CNN
 F 1 "Crystal" H 10250 3150 50  0001 C CNN
-F 2 "" H 10250 3300 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CRYSTAL" H 10250 3300 50  0001 C CNN
 F 3 "" H 10250 3300 50  0001 C CNN
 	1    10250 3300
 	1    0    0    -1  
@@ -5046,7 +5046,7 @@ Wire Wire Line
 	8550 2950 8850 2950
 Connection ~ 9150 2950
 Wire Wire Line
-	8850 2950 9150 2950
+	8850 2950 9000 2950
 $Comp
 L Device:CP_Small C65
 U 1 1 5E3804C1
@@ -5368,6 +5368,15 @@ F 3 "~" H 12950 3350 50  0001 C CNN
 	1    12950 3350
 	1    0    0    -1  
 $EndComp
+Text GLabel 9050 2700 2    39   Output ~ 0
+CAN+5V
+Wire Wire Line
+	9050 2700 9000 2700
+Wire Wire Line
+	9000 2700 9000 2950
+Connection ~ 9000 2950
+Wire Wire Line
+	9000 2950 9150 2950
 Wire Bus Line
 	7750 7100 7750 7400
 Wire Bus Line

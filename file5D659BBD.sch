@@ -6,8 +6,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 3
 Title "C64 Motherboard KU-14194HB"
-Date "2019-09-29"
-Rev ""
+Date "2019-10-05"
+Rev "1.0"
 Comp "Commodore 1982"
 Comment1 "Retraced and schematics by bwack 2019"
 Comment2 ""
@@ -1109,8 +1109,6 @@ Wire Wire Line
 	1200 7550 1200 7250
 Connection ~ 1100 7650
 Wire Wire Line
-	1100 7250 1100 7650
-Wire Wire Line
 	1000 7250 1100 7250
 Text Label 3450 7550 0    50   ~ 0
 ~CHAREN~
@@ -1961,10 +1959,6 @@ Connection ~ 6050 6800
 Wire Bus Line
 	4700 6800 6050 6800
 Wire Wire Line
-	7400 5250 7400 8950
-Wire Wire Line
-	7500 5250 7500 9050
-Wire Wire Line
 	4600 7350 5100 7350
 Wire Wire Line
 	5000 7250 5000 6850
@@ -2174,9 +2168,6 @@ Wire Wire Line
 Wire Wire Line
 	1600 800  1600 6000
 Wire Wire Line
-	1100 700  1100 7250
-Connection ~ 1100 7250
-Wire Wire Line
 	1100 7250 1200 7250
 $Comp
 L KU-schematics-library:74LS258 U14
@@ -2365,7 +2356,7 @@ U 1 1 5D9A3317
 P 10500 5800
 F 0 "U6" H 10500 6250 79  0000 L CNN
 F 1 "2114" H 10450 6100 55  0000 L CNN
-F 2 "" H 10500 5600 39  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP18" H 10500 5600 39  0001 C CNN
 F 3 "" H 10500 5600 39  0001 C CNN
 	1    10500 5800
 	1    0    0    -1  
@@ -2426,9 +2417,9 @@ Wire Wire Line
 Wire Wire Line
 	8150 5200 8150 5600
 Wire Wire Line
-	8250 5200 8250 5600
+	8250 5200 8250 5550
 Wire Wire Line
-	8350 5200 8350 5600
+	8350 5200 8350 5500
 Wire Wire Line
 	8450 5200 8450 5600
 Wire Wire Line
@@ -3546,7 +3537,7 @@ Connection ~ 9150 5800
 Text Label 9750 7200 0    50   ~ 0
 AEC
 Wire Wire Line
-	4650 7650 10550 7650
+	4600 7650 10550 7650
 Wire Wire Line
 	10550 7650 10550 6600
 $Comp
@@ -3881,7 +3872,7 @@ Wire Wire Line
 	12900 1400 12800 1400
 Connection ~ 12800 1400
 Wire Wire Line
-	13300 1400 13700 1400
+	13300 1400 13600 1400
 $Comp
 L Device:C_Small C54
 U 1 1 5EF1D5C9
@@ -3981,8 +3972,6 @@ Wire Wire Line
 Wire Wire Line
 	13500 1900 13300 1900
 Connection ~ 13300 1900
-Text Label 13700 1400 2    50   ~ 0
-CAN+5V
 $Comp
 L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power #U0218
 U 1 1 5F1E75F6
@@ -4044,27 +4033,6 @@ F 3 "" H 12700 2800 50  0001 C CNN
 $EndComp
 Text Label 12350 2450 0    50   ~ 0
 +9V_UNREG
-$Comp
-L Connector_Generic:Conn_01x04 J1212
-U 1 1 5D9C771C
-P 13700 2950
-F 0 "J1212" H 13780 2896 50  0001 L CNN
-F 1 "Conn_01x04" H 13780 2851 50  0001 L CNN
-F 2 "" H 13700 2950 50  0001 C CNN
-F 3 "~" H 13700 2950 50  0001 C CNN
-	1    13700 2950
-	1    0    0    -1  
-$EndComp
-Wire Notes Line
-	13450 2700 15050 2700
-Wire Notes Line
-	15050 2700 15050 3300
-Wire Notes Line
-	15050 3300 13450 3300
-Wire Notes Line
-	13450 3300 13450 2700
-Text Notes 13800 3050 0    79   ~ 0
-RF MODULATOR
 Wire Wire Line
 	13500 2850 13300 2450
 Wire Wire Line
@@ -4651,12 +4619,12 @@ F 3 "" H 15650 3400 50  0001 C CNN
 	1    15650 3400
 	1    0    0    -1  
 $EndComp
-Text Label 15200 2850 0    50   ~ 0
-COMP
-Text Label 15200 2950 0    50   ~ 0
-LUMA
-Text Label 15200 3050 0    50   ~ 0
-CHROMA
+Text Label 15150 2850 0    50   ~ 0
+COMP_O
+Text Label 15150 2950 0    50   ~ 0
+LUMA_O
+Text Label 15150 3050 0    50   ~ 0
+CHROMA_O
 Text Notes 15900 6150 1    79   Italic 0
 AUDIO/VIDEO (8 PIN FEMALE DIN)
 Wire Wire Line
@@ -4687,17 +4655,6 @@ Wire Wire Line
 	15000 2950 15550 2950
 Wire Wire Line
 	15550 2850 15000 2850
-$Comp
-L Connector_Generic:Conn_01x04 J1213
-U 1 1 5D9C8179
-P 14800 2950
-F 0 "J1213" H 14718 2617 50  0001 C CNN
-F 1 "Conn_01x04" H 14718 2616 50  0001 C CNN
-F 2 "" H 14800 2950 50  0001 C CNN
-F 3 "~" H 14800 2950 50  0001 C CNN
-	1    14800 2950
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	14900 5800 14900 5950
 Text Notes 14600 5900 0    39   ~ 0
@@ -4919,6 +4876,39 @@ F 3 "" H 14600 6800 50  0001 C CNN
 	1    14600 6800
 	1    0    0    -1  
 $EndComp
+Text GLabel 13600 1400 2    50   Input ~ 0
+CAN+5V
+Text Label 3650 8650 0    28   ~ 0
+VA5
+Text Label 3750 8750 0    28   ~ 0
+VA4
+Wire Wire Line
+	8250 5550 7500 5550
+Connection ~ 8250 5550
+Wire Wire Line
+	8250 5550 8250 5600
+Wire Wire Line
+	7500 5550 7500 9050
+Wire Wire Line
+	8350 5500 7400 5500
+Connection ~ 8350 5500
+Wire Wire Line
+	8350 5500 8350 5600
+Wire Wire Line
+	7400 5500 7400 8950
+$Comp
+L KU-schematics-library:MODULATOR_LONGBOARD M1
+U 1 1 5DC37670
+P 14050 2950
+F 0 "M1" H 14050 2950 39  0001 C CNN
+F 1 "MODULATOR_LONGBOARD" H 14050 2950 39  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:MODULATOR_PORT_LONGBOARD" H 14050 2950 39  0001 C CNN
+F 3 "" H 14050 2950 39  0001 C CNN
+	1    14050 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 700  1100 7650
 Wire Bus Line
 	8400 8950 8400 9150
 Wire Bus Line

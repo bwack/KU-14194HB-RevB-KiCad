@@ -1,4 +1,4 @@
-update=lø. 28. sep. 2019 kl. 22.14 +0200
+update=lø. 05. okt. 2019 kl. 23.41 +0200
 version=1
 last_client=eeschema
 [general]
