@@ -6,6 +6,7 @@ Disclaimer: Artwork not verified. Use at own risk.
 
 # Change log
 
+- 2019-11-10 V1.2 Added missing C14 10uF 25V electrolytic capacitor
 - 2019-10-15 V1.1 Layout: Fixed missing keying-slot in user port.
 - 2010-10-05 V1.0 First release, not prototyped
 
