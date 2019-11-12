@@ -6,8 +6,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 3
 Title "C64 Motherboard KU-14194HB"
-Date "2019-11-10"
-Rev "1.2"
+Date "2019-11-12"
+Rev "1.3"
 Comp "Commodore 1982"
 Comment1 "Retraced and schematics by bwack 2019"
 Comment2 ""
@@ -5048,6 +5048,19 @@ Text Notes 7900 1600 0    50   ~ 0
 25V
 Wire Wire Line
 	8150 1350 7700 1350
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue #U?
+U 1 1 5DE17930
+P 8150 1550
+AR Path="/5DE17930" Ref="#U?"  Part="1" 
+AR Path="/5D659BBE/5DE17930" Ref="#U0242"  Part="1" 
+F 0 "#U0242" H 8150 1550 50  0001 C CNN
+F 1 "GND_SMALL-power" H 8150 1550 50  0001 C CNN
+F 2 "" H 8150 1550 50  0001 C CNN
+F 3 "" H 8150 1550 50  0001 C CNN
+	1    8150 1550
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	8400 8950 8400 9150
 Wire Bus Line
@@ -5094,17 +5107,6 @@ Wire Bus Line
 	1700 1850 1700 5150
 Wire Bus Line
 	2800 4350 9300 4350
-$Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue #U?
-U 1 1 5DE17930
-P 8150 1550
-AR Path="/5DE17930" Ref="#U?"  Part="1" 
-AR Path="/5D659BBE/5DE17930" Ref="#U?"  Part="1" 
-F 0 "#U?" H 8150 1550 50  0001 C CNN
-F 1 "GND_SMALL-power" H 8150 1550 50  0001 C CNN
-F 2 "" H 8150 1550 50  0001 C CNN
-F 3 "" H 8150 1550 50  0001 C CNN
-	1    8150 1550
-	1    0    0    -1  
-$EndComp
+Text Notes 12550 1700 0    50   ~ 0
+Y5U
 $EndSCHEMATC
