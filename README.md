@@ -7,6 +7,8 @@ Disclaimer: Artwork not verified. Use at own risk.
 # Change log
 
 - 2019-11-12: V1.3 Fixes: Mostly missing values.
+  - C88: "1000uF 25V" -> "470uF 50uF". Commodore said 1000 but used 470.
+  - R31: "180" -> "1K". A mistake in the commodore schematics.
   - R52: "?" -> "330"
   - R53: "?" -> "100"
   - C86: "?" -> "82pF",
@@ -17,4 +19,3 @@ Disclaimer: Artwork not verified. Use at own risk.
  - 2019-11-10 V1.2 Added missing C14 10uF 25V electrolytic capacitor
 - 2019-10-15 V1.1 Layout: Fixed missing keying-slot in user port.
 - 2010-10-05 V1.0 First release, not prototyped
-
