@@ -6,6 +6,20 @@ The rare KU14194HB C64 Motherboard schematics and layout. Retraced in and import
 
 Disclaimer: Artwork not verified. Use at own risk.
 
+# Original bodges
+
+This PCB is a replica. It includes the mistakes that Commodore made.
+
+It is necessary to cut a trace above R37 on the bottom side, and add a 1K resistor from R37 and up to a via.
+See the images folder to where to cut and add a resistor.
+
+Piggyback a 100nF capacitor over CR1.
+
+Notice how the main crystal oscillator Y1 body is grounded with a wire.
+
+In later designs 250407 Reb B I think, 4 piggybacked diodes were introduced to protect the serial lines when hotplugging the disc drive.
+I haven't added these myself, but I see the value of having those. I might add instructions here later on how to add the diodes.
+
 # Change log
 
 - 2019-11-12: V1.3 Fixes: Mostly missing values.
@@ -21,3 +35,4 @@ Disclaimer: Artwork not verified. Use at own risk.
  - 2019-11-10 V1.2 Added missing C14 10uF 25V electrolytic capacitor
 - 2019-10-15 V1.1 Layout: Fixed missing keying-slot in user port.
 - 2010-10-05 V1.0 First release, not prototyped
+
