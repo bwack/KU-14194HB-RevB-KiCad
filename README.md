@@ -20,6 +20,9 @@ Notice how the main crystal oscillator Y1 body is grounded with a wire.
 In later designs 250407 Reb B I think, 4 piggybacked diodes were introduced to protect the serial lines when hotplugging the disc drive.
 I haven't added these myself, but I see the value of having those. I might add instructions here later on how to add the diodes.
 
+# Questions
+* Feel free post questions in the issues section.
+
 # Change log
 
 - 2019-11-12: V1.3 Fixes: Mostly missing values.
@@ -39,5 +42,11 @@ I haven't added these myself, but I see the value of having those. I might add i
 # YouTube
 A playlist of all the videos:
 
-[![playlist ](https://img.youtube.com/vi/iNxOm7G6efA/0.jpg)](
+[![playlist](https://img.youtube.com/vi/iNxOm7G6efA/0.jpg)](
 https://www.youtube.com/watch?v=iNxOm7G6efA&list=PLtQOf_JULmrTGLZCElGG_T1a01JSDP0CP)
+
+# In the wind
+
+forum64.de: The board has some threads at forum64.de (German). May require login.
+* [KU-14194 Bestückungs-Thread](https://www.forum64.de/index.php?thread/96336-ku-14194-best%C3%BCckungs-thread/)
+* [KU-14194](https://www.forum64.de/index.php?thread/95454-ku-14194/)
