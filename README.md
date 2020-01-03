@@ -21,7 +21,7 @@ In later designs 250407 Reb B I think, 4 piggybacked diodes were introduced to p
 I haven't added these myself, but I see the value of having those. I might add instructions here later on how to add the diodes.
 
 # Questions
-* Feel free post questions in the issues section.
+* Feel free post questions in the issues section. I will provide more information here later.
 
 # Change log
 
@@ -49,4 +49,5 @@ https://www.youtube.com/watch?v=iNxOm7G6efA&list=PLtQOf_JULmrTGLZCElGG_T1a01JSDP
 
 forum64.de: The board has some threads at forum64.de (German). May require login.
 * [KU-14194 Bestückungs-Thread](https://www.forum64.de/index.php?thread/96336-ku-14194-best%C3%BCckungs-thread/)
-* [KU-14194](https://www.forum64.de/index.php?thread/95454-ku-14194/)
+* [KU-14194](https://www.forum64.de/index.php?thread/95454-ku-14194/) (long group buy thread)
+* [KU-14194 (Replika) ... wer schafft es als Erste/r? Aktuelle Sachstandsberichte ...](https://www.forum64.de/index.php?thread/95518-ku-14194-replika-wer-schafft-es-als-erste-r-aktuelle-sachstandsberichte/)
