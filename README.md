@@ -36,3 +36,8 @@ I haven't added these myself, but I see the value of having those. I might add i
 - 2019-10-15 V1.1 Layout: Fixed missing keying-slot in user port.
 - 2010-10-05 V1.0 First release, not prototyped
 
+# YouTube
+A playlist of all the videos:
+
+[![playlist ](https://img.youtube.com/vi/iNxOm7G6efA/0.jpg)](
+https://www.youtube.com/watch?v=iNxOm7G6efA&list=PLtQOf_JULmrTGLZCElGG_T1a01JSDP0CP)
