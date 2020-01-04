@@ -23,6 +23,9 @@ I haven't added these myself, but I see the value of having those. I might add i
 # Questions
 * Feel free post questions in the issues section. I will provide more information here later.
 
+# BOM
+I'm working on it. I've started on a bom with Mouser and Reichelt part no. here: [BOM_v1.3.csv](BOM_v1.3.csv)
+
 # Change log
 
 - 2019-11-12: V1.3 Fixes: Mostly missing values.
