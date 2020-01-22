@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 11893)
+    (drawings 11895)
     (tracks 7057)
     (zones 0)
     (modules 220)
@@ -6562,6 +6562,8 @@
     )
   )
 
+  (gr_poly (pts (xy 241.4 51.1) (xy 241.4 46.5) (xy 250.4 46.5) (xy 250.4 51.1)) (layer B.Mask) (width 0) (tstamp 5E28ED0B))
+  (gr_poly (pts (xy 241.6 50.8) (xy 241.6 46.6725) (xy 248.9025 46.6725) (xy 248.9025 50.8)) (layer B.Mask) (width 0) (tstamp 5E28ED0B))
   (gr_poly (pts (xy 341.6 131.2) (xy 343.5 131.2) (xy 343.5 138.75) (xy 341.6 138.75)) (layer B.Cu) (width 0.1) (tstamp 5E258E05))
   (gr_poly (pts (xy 338.6 131.2) (xy 339.7 131.2) (xy 339.7 138.75) (xy 338.6 138.75)) (layer B.Cu) (width 0.1) (tstamp 5E258E04))
   (gr_poly (pts (xy 338.9 131.2) (xy 342.25 131.2) (xy 342.25 132.85) (xy 338.9 132.85)) (layer B.Cu) (width 0.1) (tstamp 5E258E03))

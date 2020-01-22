@@ -36,7 +36,8 @@ I'm working on it. I've started on a bom with Mouser and Reichelt part no.
   - Expansion Port: Connector moved to center of shield. Some traces moved.
   - Left edge: Extended the PCB by 2.2mm.
   - Left edge: Increased track width of the power rails.
-  - CAN: added two solder pads for the shield.
+  - CAN shield: added two solder pads.
+  - RF modulator: added solder pad.
   - Schematics: Rev 1.4. No change.
 - 2019-11-12: V1.3 Fixes: Mostly missing values.
   - C88: "1000uF 25V" -> "470uF 50uF". Commodore said 1000 but used 470.
