@@ -6,8 +6,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 3
 Title "C64 Motherboard KU-14194HB"
-Date "2019-11-12"
-Rev "1.3"
+Date "2020-01-23"
+Rev "1.4"
 Comp "Commodore 1982"
 Comment1 "layout retraced and schematics drawn by bwack 2019"
 Comment2 ""

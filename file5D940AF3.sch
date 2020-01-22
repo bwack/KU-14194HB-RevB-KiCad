@@ -6,8 +6,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 3
 Title "C64 Motherboard KU-14194HB"
-Date "2019-11-12"
-Rev "1.3"
+Date "2020-01-23"
+Rev "1.4"
 Comp "Commodore 1982"
 Comment1 "Retraced and schematics by bwack 2019"
 Comment2 ""
@@ -537,7 +537,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 5100 3650 5100
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D981672
 P 6500 9700
 AR Path="/5D981672" Ref="U?"  Part="1" 
@@ -550,7 +550,7 @@ F 3 "" H 6500 9700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D981678
 P 1950 10500
 AR Path="/5D981678" Ref="U?"  Part="1" 
@@ -565,7 +565,7 @@ $EndComp
 Wire Wire Line
 	1950 10400 1950 10500
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D98167F
 P 3800 10750
 AR Path="/5D98167F" Ref="U?"  Part="1" 
@@ -578,7 +578,7 @@ F 3 "" H 3800 10750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D981685
 P 2650 9700
 AR Path="/5D981685" Ref="U?"  Part="1" 
@@ -591,7 +591,7 @@ F 3 "" H 2650 9700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D98168B
 P 1950 7200
 AR Path="/5D98168B" Ref="U?"  Part="1" 
@@ -604,7 +604,7 @@ F 3 "" H 1950 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D981691
 P 1950 4900
 AR Path="/5D981691" Ref="U?"  Part="1" 
@@ -617,7 +617,7 @@ F 3 "" H 1950 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D981697
 P 1950 3800
 AR Path="/5D981697" Ref="U?"  Part="1" 
@@ -630,7 +630,7 @@ F 3 "" H 1950 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D98169D
 P 1950 1600
 AR Path="/5D98169D" Ref="U?"  Part="1" 
@@ -643,7 +643,7 @@ F 3 "" H 1950 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D9816A3
 P 6500 7100
 AR Path="/5D9816A3" Ref="U?"  Part="1" 
@@ -656,7 +656,7 @@ F 3 "" H 6500 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D9816B0
 P 4950 10650
 AR Path="/5D9816B0" Ref="U?"  Part="1" 
@@ -700,7 +700,7 @@ Connection ~ 4950 10300
 Wire Wire Line
 	4950 10300 4950 10350
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D9816C5
 P 4700 10400
 AR Path="/5D9816C5" Ref="U?"  Part="1" 
@@ -961,7 +961,7 @@ F 3 "" H 2650 1650 50  0001 C CNN
 $EndComp
 Connection ~ 2650 1650
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue #U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue #U?
 U 1 1 5D6AD15C
 P 2300 1650
 AR Path="/5D6AD15C" Ref="#U?"  Part="1" 
@@ -974,7 +974,7 @@ F 3 "" H 2300 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue #U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue #U?
 U 1 1 5D6AF25C
 P 3250 2100
 AR Path="/5D6AF25C" Ref="#U?"  Part="1" 
@@ -1309,7 +1309,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 8100 4400 8100
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D5F26A8
 P 12150 7950
 AR Path="/5D5F26A8" Ref="U?"  Part="1" 
@@ -1335,7 +1335,7 @@ F 3 "" H 6350 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D61494D
 P 6350 4800
 AR Path="/5D61494D" Ref="U?"  Part="1" 
@@ -1379,7 +1379,7 @@ Wire Wire Line
 	6500 7350 6650 7350
 Connection ~ 6500 7350
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D6E62CA
 P 6900 7450
 AR Path="/5D6E62CA" Ref="U?"  Part="1" 
@@ -1411,7 +1411,7 @@ $EndComp
 Wire Wire Line
 	5800 4800 6250 4800
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D79666A
 P 5550 4900
 AR Path="/5D79666A" Ref="U?"  Part="1" 
@@ -1479,7 +1479,7 @@ F 3 "~" H 5750 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D871F63
 P 5750 1450
 AR Path="/5D871F63" Ref="U?"  Part="1" 
@@ -1532,7 +1532,7 @@ F 3 "" H 5300 1100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D8B8ED7
 P 5450 1450
 AR Path="/5D8B8ED7" Ref="U?"  Part="1" 
@@ -1616,7 +1616,7 @@ $EndComp
 Wire Wire Line
 	12300 7250 12100 7250
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D6C9363
 P 12250 7050
 AR Path="/5D6C9363" Ref="U?"  Part="1" 
@@ -1661,7 +1661,7 @@ Connection ~ 11450 7650
 Wire Wire Line
 	11450 7650 11300 7650
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D813E28
 P 11450 7950
 AR Path="/5D813E28" Ref="U?"  Part="1" 
@@ -1687,7 +1687,7 @@ $EndComp
 Text Notes 11000 7500 0    50   ~ 0
 25V
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D8669B4
 P 11250 7450
 AR Path="/5D8669B4" Ref="U?"  Part="1" 
@@ -1906,7 +1906,7 @@ F 3 "" H 7300 10750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D6CAD3A
 P 7100 10900
 AR Path="/5D6CAD3A" Ref="U?"  Part="1" 
@@ -1919,7 +1919,7 @@ F 3 "" H 7100 10900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D6CB62A
 P 6750 10600
 AR Path="/5D6CB62A" Ref="U?"  Part="1" 
@@ -1967,7 +1967,7 @@ F 3 "~" V 7700 10850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D7BB02F
 P 7700 11050
 AR Path="/5D7BB02F" Ref="U?"  Part="1" 
@@ -2711,7 +2711,7 @@ Connection ~ 8300 1650
 Wire Wire Line
 	8300 1900 8300 1950
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5DE745B1
 P 8300 1950
 AR Path="/5DE745B1" Ref="U?"  Part="1" 
@@ -2735,7 +2735,7 @@ F 3 "~" H 8600 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5DE77F9C
 P 8700 1950
 AR Path="/5DE77F9C" Ref="U?"  Part="1" 
@@ -2763,7 +2763,7 @@ $EndComp
 Text Notes 9061 1847 0    50   ~ 0
 7.5V
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5DF06A56
 P 8950 1750
 AR Path="/5DF06A56" Ref="U?"  Part="1" 
@@ -2881,7 +2881,7 @@ F 3 "~" H 10350 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D9B7902
 P 10350 2700
 AR Path="/5D9B7902" Ref="U?"  Part="1" 
@@ -2909,7 +2909,7 @@ F 3 "" H 9850 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D858E83
 P 10550 2700
 AR Path="/5D858E83" Ref="U?"  Part="1" 
@@ -3168,7 +3168,7 @@ Connection ~ 9250 10400
 Wire Wire Line
 	9250 10400 9250 10150
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D920620
 P 9150 9650
 AR Path="/5D920620" Ref="U?"  Part="1" 
@@ -3376,7 +3376,7 @@ $EndComp
 Wire Wire Line
 	10950 9800 10950 9700
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5E9015DC
 P 10950 9800
 AR Path="/5E9015DC" Ref="U?"  Part="1" 
@@ -3405,7 +3405,7 @@ Wire Wire Line
 	9950 9600 9950 9650
 Connection ~ 10300 9700
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5F43522D
 P 9950 9850
 AR Path="/5F43522D" Ref="U?"  Part="1" 
@@ -3466,7 +3466,7 @@ F 3 "~" H 11800 9300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5F65272A
 P 11800 9400
 AR Path="/5F65272A" Ref="U?"  Part="1" 
@@ -3495,7 +3495,7 @@ Connection ~ 11400 9150
 Wire Wire Line
 	11400 9150 11800 9150
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5F6D7363
 P 11400 9400
 AR Path="/5F6D7363" Ref="U?"  Part="1" 
@@ -3571,7 +3571,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 8750 10500 8850
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D8659B6
 P 10500 8850
 AR Path="/5D8659B6" Ref="U?"  Part="1" 
@@ -3664,7 +3664,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 8200 9850 8250
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5DFE6639
 P 9850 8250
 AR Path="/5DFE6639" Ref="U?"  Part="1" 
@@ -3693,7 +3693,7 @@ Connection ~ 9850 8750
 Wire Wire Line
 	9850 8750 10100 8750
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5E028E1F
 P 9850 9050
 AR Path="/5E028E1F" Ref="U?"  Part="1" 
@@ -3734,7 +3734,7 @@ Connection ~ 9700 8750
 Wire Wire Line
 	9700 8750 9850 8750
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5E169FE2
 P 9700 9050
 AR Path="/5E169FE2" Ref="U?"  Part="1" 
@@ -3767,7 +3767,7 @@ Connection ~ 9700 7950
 Wire Wire Line
 	9700 7950 9550 7950
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5E1EA551
 P 9700 8250
 AR Path="/5E1EA551" Ref="U?"  Part="1" 
@@ -3784,7 +3784,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 8150 9250 8250
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5E2F133C
 P 9250 8250
 AR Path="/5E2F133C" Ref="U?"  Part="1" 
@@ -3799,7 +3799,7 @@ $EndComp
 Wire Wire Line
 	9250 8950 9250 9050
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5E331590
 P 9250 9050
 AR Path="/5E331590" Ref="U?"  Part="1" 
@@ -3830,7 +3830,7 @@ Connection ~ 8800 7950
 Wire Wire Line
 	8800 7950 8650 7950
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5E40D490
 P 8800 8250
 AR Path="/5E40D490" Ref="U?"  Part="1" 
@@ -3866,7 +3866,7 @@ Wire Wire Line
 Wire Wire Line
 	8650 8200 8650 8250
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5E74232D
 P 8650 8250
 AR Path="/5E74232D" Ref="U?"  Part="1" 
@@ -3929,7 +3929,7 @@ Wire Wire Line
 Wire Wire Line
 	8650 9000 8650 9050
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5EB75115
 P 8800 9050
 AR Path="/5EB75115" Ref="U?"  Part="1" 
@@ -3942,7 +3942,7 @@ F 3 "" H 8800 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5EB755AB
 P 8650 9050
 AR Path="/5EB755AB" Ref="U?"  Part="1" 
@@ -3964,7 +3964,7 @@ CAN+5V
 Text Notes 10104 9090 2    50   ~ 0
 16V
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue #U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue #U?
 U 1 1 5ECB7F95
 P 11700 10500
 AR Path="/5ECB7F95" Ref="#U?"  Part="1" 
@@ -4036,7 +4036,7 @@ F 3 "~" H 9900 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5D95BE6E
 P 9900 7550
 AR Path="/5D95BE6E" Ref="U?"  Part="1" 
@@ -4058,7 +4058,7 @@ Wire Wire Line
 Text GLabel 9250 7250 0    50   Output ~ 0
 DOT_CLOCK
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5DA391E1
 P 9600 7050
 AR Path="/5DA391E1" Ref="U?"  Part="1" 
@@ -4071,7 +4071,7 @@ F 3 "" H 9600 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5DA39741
 P 9400 7050
 AR Path="/5DA39741" Ref="U?"  Part="1" 
@@ -4125,7 +4125,7 @@ F 3 "~" H 10250 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5EFD8E0F
 P 10000 3400
 AR Path="/5EFD8E0F" Ref="U?"  Part="1" 
@@ -4163,7 +4163,7 @@ Text Label 10200 2950 0    50   ~ 0
 Text Notes 11007 4427 2    50   ~ 0
 25V
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5EBED72C
 P 11050 4200
 AR Path="/5EBED72C" Ref="U?"  Part="1" 
@@ -4180,7 +4180,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 3550 10600 3500
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5E4FA872
 P 10900 3550
 AR Path="/5E4FA872" Ref="U?"  Part="1" 
@@ -4216,7 +4216,7 @@ Connection ~ 10700 3300
 Wire Wire Line
 	10600 3300 10700 3300
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5E466D01
 P 10600 3550
 AR Path="/5E466D01" Ref="U?"  Part="1" 
@@ -4261,7 +4261,7 @@ $EndComp
 Wire Wire Line
 	10000 3900 10000 4300
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5E2AF6CE
 P 10000 4300
 AR Path="/5E2AF6CE" Ref="U?"  Part="1" 
@@ -4281,7 +4281,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 4250 10500 4300
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5E1D800F
 P 10500 4300
 AR Path="/5E1D800F" Ref="U?"  Part="1" 
@@ -4294,7 +4294,7 @@ F 3 "" H 10500 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5E1D6D66
 P 10200 4300
 AR Path="/5E1D6D66" Ref="U?"  Part="1" 
@@ -4361,7 +4361,7 @@ $EndComp
 Wire Wire Line
 	11350 3900 11350 3250
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5DA1A3F3
 P 11350 4450
 AR Path="/5DA1A3F3" Ref="U?"  Part="1" 
@@ -4406,7 +4406,7 @@ Wire Wire Line
 Text Label 11050 4900 0    50   ~ 0
 +Vc
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5E403153
 P 12100 5250
 AR Path="/5E403153" Ref="U?"  Part="1" 
@@ -4434,7 +4434,7 @@ F 3 "~" H 12650 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5E637DF8
 P 12650 4700
 AR Path="/5E637DF8" Ref="U?"  Part="1" 
@@ -4487,7 +4487,7 @@ F 3 "~" H 12300 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5EC4D90E
 P 12300 4350
 AR Path="/5EC4D90E" Ref="U?"  Part="1" 
@@ -4552,7 +4552,7 @@ Wire Wire Line
 	12300 3850 12300 3900
 Connection ~ 12300 3850
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5F16D1D0
 P 12300 3900
 AR Path="/5F16D1D0" Ref="U?"  Part="1" 
@@ -4586,7 +4586,7 @@ F 3 "" H 11750 3150 39  0001 C CNN
 $EndComp
 Connection ~ 11750 3150
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5F4F4FD1
 P 11500 3250
 AR Path="/5F4F4FD1" Ref="U?"  Part="1" 
@@ -4634,7 +4634,7 @@ F 3 "~" H 9950 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5DB944F7
 P 9950 3150
 AR Path="/5DB944F7" Ref="U?"  Part="1" 
@@ -4738,7 +4738,7 @@ Wire Wire Line
 Wire Wire Line
 	13050 4200 15000 4200
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5EBF89DE
 P 15350 5350
 AR Path="/5EBF89DE" Ref="U?"  Part="1" 
@@ -4769,7 +4769,7 @@ Wire Wire Line
 	15800 4200 15650 4200
 Connection ~ 15650 4200
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5EF459B3
 P 15800 4500
 AR Path="/5EF459B3" Ref="U?"  Part="1" 
@@ -4835,7 +4835,7 @@ Connection ~ 15650 4650
 Wire Wire Line
 	15650 4650 15650 5200
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5F48B2EB
 P 15450 5000
 AR Path="/5F48B2EB" Ref="U?"  Part="1" 
@@ -4955,7 +4955,7 @@ Connection ~ 11200 4000
 Wire Wire Line
 	11200 4000 11300 4000
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue #U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue #U?
 U 1 1 605F81BA
 P 11200 4200
 AR Path="/605F81BA" Ref="#U?"  Part="1" 
@@ -5059,7 +5059,7 @@ $EndComp
 Text Notes 8788 3229 2    50   ~ 0
 25V
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5DE13935
 P 8850 3150
 AR Path="/5DE13935" Ref="U?"  Part="1" 
@@ -5072,7 +5072,7 @@ F 3 "" H 8850 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5DDB9793
 P 9150 3150
 AR Path="/5DDB9793" Ref="U?"  Part="1" 
@@ -5137,7 +5137,7 @@ $EndComp
 Wire Wire Line
 	9500 3350 9550 3350
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue #U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue #U?
 U 1 1 5E7A2B77
 P 9550 3550
 AR Path="/5E7A2B77" Ref="#U?"  Part="1" 
@@ -5186,7 +5186,7 @@ Connection ~ 9150 3350
 Wire Wire Line
 	9150 3350 9200 3350
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue #U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue #U?
 U 1 1 5E80718E
 P 9150 3550
 AR Path="/5E80718E" Ref="#U?"  Part="1" 
@@ -5199,7 +5199,7 @@ F 3 "" H 9150 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue #U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue #U?
 U 1 1 5E807920
 P 8850 3550
 AR Path="/5E807920" Ref="#U?"  Part="1" 
@@ -5241,7 +5241,7 @@ F 3 "https://abracon.com/Precisiontiming/ABLNO.pdf" H 8750 4500 50  0001 C CNN
 $EndComp
 NoConn ~ 8550 4400
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
 U 1 1 5DB110FC
 P 8950 4700
 AR Path="/5DB110FC" Ref="U?"  Part="1" 
@@ -5283,7 +5283,7 @@ Wire Wire Line
 	12950 2950 12650 2950
 Connection ~ 12650 2950
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue #U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue #U?
 U 1 1 5E1390F2
 P 12950 3500
 AR Path="/5E1390F2" Ref="#U?"  Part="1" 
@@ -5309,7 +5309,7 @@ F 3 "" H 13300 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue #U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue #U?
 U 1 1 5E19F876
 P 13300 3500
 AR Path="/5E19F876" Ref="#U?"  Part="1" 
@@ -5338,7 +5338,7 @@ Wire Wire Line
 	11150 3300 10900 3300
 Connection ~ 10900 3300
 $Comp
-L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue #U?
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue #U?
 U 1 1 5E30D1DB
 P 11150 3550
 AR Path="/5E30D1DB" Ref="#U?"  Part="1" 

@@ -1,6 +1,7 @@
 # KU-14194HB-RevB-KiCad
 
-![3D render](Screenshot%20from%202019-10-06%2000-12-34.png?raw=true "Title")
+![3D render](3Dview_1.4-top.png?raw=true "Title")
+![3D render](3dview_1.4-bottom.png?raw=true "Title")
 
 The rare KU14194HB C64 Motherboard schematics and layout. Retraced in and imported from SprintLayout.
 
@@ -21,13 +22,22 @@ In later designs 250407 Reb B I think, 4 piggybacked diodes were introduced to p
 I haven't added these myself, but I see the value of having those. I might add instructions here later on how to add the diodes.
 
 # Questions
+
 * Feel free post questions in the issues section. I will provide more information here later.
 
 # BOM
-I'm working on it. I've started on a bom with Mouser and Reichelt part no. here: [bom_v1.3.csv](bom_v1.3.csv)
+
+I'm working on it. I've started on a bom with Mouser and Reichelt part no.
 
 # Change log
 
+- 2020-01-23: V1.4 PCB improvements:
+  - Expansion Port: Larger round solder pads for the shield. Same error in the original.
+  - Expansion Port: Connector moved to center of shield. Some traces moved.
+  - Left edge: Extended the PCB by 2.2mm.
+  - Left edge: Increased track width of the power rails.
+  - CAN: added two solder pads for the shield.
+  - Schematics: Rev 1.4. No change.
 - 2019-11-12: V1.3 Fixes: Mostly missing values.
   - C88: "1000uF 25V" -> "470uF 50uF". Commodore said 1000 but used 470.
   - R31: "180" -> "1K". A mistake in the commodore schematics.
@@ -40,9 +50,10 @@ I'm working on it. I've started on a bom with Mouser and Reichelt part no. here:
   - C70: 15pF 5%. This is a PAL only board. In later revisions, 16pF is used for NTSC.
  - 2019-11-10 V1.2 Added missing C14 10uF 25V electrolytic capacitor
 - 2019-10-15 V1.1 Layout: Fixed missing keying-slot in user port.
-- 2010-10-05 V1.0 First release, not prototyped
+- 2010-10-05 V1.0 First release.
 
 # YouTube
+
 A playlist of all the videos:
 
 [![playlist](https://img.youtube.com/vi/iNxOm7G6efA/0.jpg)](
