@@ -1,7 +1,7 @@
 # KU-14194HB-RevB-KiCad
 
 ![3D render](3Dview_1.4-top.png?raw=true "Title")
-![3D render](3dview_1.4-bottom.png?raw=true "Title")
+![3D render](3Dview_1.4-bottom.png?raw=true "Title")
 
 The rare KU14194HB C64 Motherboard schematics and layout. Retraced in and imported from SprintLayout.
 
