@@ -51,7 +51,7 @@ I'm working on it. I've started on a bom with Mouser and Reichelt part no.
   - C70: 15pF 5%. This is a PAL only board. In later revisions, 16pF is used for NTSC.
  - 2019-11-10 V1.2 Added missing C14 10uF 25V electrolytic capacitor
 - 2019-10-15 V1.1 Layout: Fixed missing keying-slot in user port.
-- 2010-10-05 V1.0 First release.
+- 2019-10-05 V1.0 First release.
 
 # YouTube
 
