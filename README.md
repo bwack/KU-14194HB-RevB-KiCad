@@ -21,13 +21,17 @@ Notice how the main crystal oscillator Y1 body is grounded with a wire.
 In later designs 250407 Reb B I think, 4 piggybacked diodes were introduced to protect the serial lines when hotplugging the disc drive.
 I haven't added these myself, but I see the value of having those. I might add instructions here later on how to add the diodes.
 
+# BOM
+
+Please see the [BOM file](bom.csv).
+
+# Interactive-BOM
+
+[The interactive bom html page](https://htmlpreview.github.io/?https://raw.githubusercontent.com/bwack/KU-14194HB-RevB-KiCad/master/interactive-bom/ibom.html) is useful for assembling the board and finding signal traces by using a web browser. Try it here. For a BOM for ordering parts see the BOM above.
+
 # Questions
 
 * Feel free post questions in the issues section. I will provide more information here later.
-
-# BOM
-
-I'm working on it. I've started on a bom with Mouser and Reichelt part no.
 
 # Change log
 
