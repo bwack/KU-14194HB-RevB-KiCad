@@ -67,6 +67,7 @@ https://www.youtube.com/watch?v=iNxOm7G6efA&list=PLtQOf_JULmrTGLZCElGG_T1a01JSDP
 # In the wind
 
 forum64.de: The board has some threads at forum64.de (German). May require login.
+* [Bilder SHOWROOM für Repro-Boards... KU-14194HB](https://www.forum64.de/index.php?thread/97205-bilder-showroom-f%C3%BCr-repro-boards-ku-14194hb/&pageNo=1)
 * [KU-14194 Bestückungs-Thread](https://www.forum64.de/index.php?thread/96336-ku-14194-best%C3%BCckungs-thread/)
 * [KU-14194](https://www.forum64.de/index.php?thread/95454-ku-14194/) (long group buy thread)
 * [KU-14194 (Replika) ... wer schafft es als Erste/r? Aktuelle Sachstandsberichte ...](https://www.forum64.de/index.php?thread/95518-ku-14194-replika-wer-schafft-es-als-erste-r-aktuelle-sachstandsberichte/)
