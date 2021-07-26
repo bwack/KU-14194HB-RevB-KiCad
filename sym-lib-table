@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name KU-schematics-library)(type Legacy)(uri ${KIPRJMOD}/KU-schematics-library.lib)(options "")(descr ""))
   (lib (name KU-14194HB-REV-B-KiCad-rescue)(type Legacy)(uri ${KIPRJMOD}/KU-14194HB-REV-B-KiCad-rescue.lib)(options "")(descr ""))
+  (lib (name GND_SMALL)(type Legacy)(uri /home/hans/bwack-git/GND_SMALL.lib)(options "")(descr ""))
 )

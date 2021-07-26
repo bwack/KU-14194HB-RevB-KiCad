@@ -796,8 +796,6 @@ Text Label 5400 8000 0    50   ~ 0
 CLK_OUT
 Text Label 5400 8100 0    50   ~ 0
 ATN_OUT
-Wire Wire Line
-	6350 7100 6350 9700
 $Comp
 L KU-schematics-library:CIA_U2 U?
 U 1 1 5D981724
@@ -1862,7 +1860,6 @@ Wire Wire Line
 Connection ~ 7550 1750
 Wire Wire Line
 	6350 10700 6900 10700
-Connection ~ 6350 9700
 Text Label 6450 10700 0    50   ~ 0
 60Hz
 $Comp
@@ -2438,7 +2435,7 @@ Wire Wire Line
 	7250 6400 6850 6400
 Text Label 6850 4550 0    50   ~ 0
 ~IRQ~
-Text Label 6900 6300 0    50   ~ 0
+Text Label 6900 6400 0    50   ~ 0
 ~IRQ~
 Text Notes 8050 7500 0    50   ~ 0
 RP4\n3.3K
@@ -5382,16 +5379,6 @@ Wire Wire Line
 Connection ~ 12950 3250
 Wire Wire Line
 	13300 3300 13300 3250
-Wire Bus Line
-	7750 7100 7750 7400
-Wire Bus Line
-	7150 7400 7150 8900
-Wire Bus Line
-	7200 5900 7200 6350
-Wire Bus Line
-	7150 1950 7150 5900
-Wire Bus Line
-	7050 3550 7050 8400
 $Comp
 L Device:C_Small C?
 U 1 1 6019A4BB
@@ -5421,4 +5408,18 @@ F 3 "" H 12400 3150 50  0001 C CNN
 	1    12400 3150
 	1    0    0    -1  
 $EndComp
+Text Label 6350 7350 1    0    ~ 0
+60Hz
+Wire Wire Line
+	6350 7100 6350 7500
+Wire Bus Line
+	7750 7100 7750 7400
+Wire Bus Line
+	7150 7400 7150 8900
+Wire Bus Line
+	7200 5900 7200 6350
+Wire Bus Line
+	7150 1950 7150 5900
+Wire Bus Line
+	7050 3550 7050 8400
 $EndSCHEMATC
