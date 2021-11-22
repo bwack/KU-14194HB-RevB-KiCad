@@ -5,7 +5,7 @@
 
 The rare KU14194HB C64 Motherboard schematics and layout. Retraced in and imported from SprintLayout.
 
-Disclaimer: See DISCLAIMER.md
+[Disclaimer](https://github.com/bwack/KU-14194HB-RevB-KiCad/blob/master/DISCLAIMER.md)
 
 # Original bodges
 
